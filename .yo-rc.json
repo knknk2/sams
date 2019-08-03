@@ -1,0 +1,36 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.sams.sams"
+    },
+    "jhipsterVersion": "6.2.0",
+    "applicationType": "microservice",
+    "baseName": "sams",
+    "packageName": "com.sams.sams",
+    "packageFolder": "com/sams/sams",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": "kafka",
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MTZhMjNhYTFjZWJhNjg2NDZkZjU5MmE4NGU2ZTczZmFkMzNkMzNkMDYxMDM2MjUxMWRiYjFhZDdmZGNkODUyZTZiM2U2NzhjZmU0OWU4MGNjYzAzNGJkMmM3MjI0ODYyYTY4MGU4ZDUzZGYxYjE5N2JmZjhmZTdhMzg2ZDg2ZDc=",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "skipClient": true,
+    "skipUserManagement": true,
+    "blueprints": []
+  }
+}

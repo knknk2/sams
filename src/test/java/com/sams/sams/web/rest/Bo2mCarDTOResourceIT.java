@@ -33,7 +33,7 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
 /**
- * Integration tests for the {@Link Bo2mCarDTOResource} REST controller.
+ * Integration tests for the {@link Bo2mCarDTOResource} REST controller.
  */
 @EmbeddedKafka
 @SpringBootTest(classes = SamsApp.class)
@@ -44,6 +44,7 @@ public class Bo2mCarDTOResourceIT {
 
     private static final Instant DEFAULT_CREATED_AT = Instant.ofEpochMilli(0L);
     private static final Instant UPDATED_CREATED_AT = Instant.now().truncatedTo(ChronoUnit.MILLIS);
+    private static final Instant SMALLER_CREATED_AT = Instant.ofEpochMilli(-1L);
 
     @Autowired
     private Bo2mCarDTORepository bo2mCarDTORepository;
