@@ -30,7 +30,7 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
 /**
- * Integration tests for the {@Link Bo2mOwnerDTOResource} REST controller.
+ * Integration tests for the {@link Bo2mOwnerDTOResource} REST controller.
  */
 @EmbeddedKafka
 @SpringBootTest(classes = SamsApp.class)

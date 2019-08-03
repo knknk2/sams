@@ -39,7 +39,7 @@
     -->
     <changeSet id="20190725174559-1-data" author="jhipster" context="faker">
         <loadData
-                  file="config/liquibase/data/bo2m_owner.csv"
+                  file="config/liquibase/fake-data/bo2m_owner.csv"
                   separator=";"
                   tableName="bo2m_owner">
             <column name="id" type="numeric"/>
