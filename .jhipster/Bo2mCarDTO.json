@@ -1,0 +1,33 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "relationships": [
+        {
+            "relationshipName": "bo2mOwnerDTO",
+            "otherEntityName": "bo2mOwnerDTO",
+            "relationshipType": "many-to-one",
+            "relationshipValidateRules": [
+                "required"
+            ],
+            "otherEntityField": "id"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "createdAt",
+            "fieldType": "Instant"
+        }
+    ],
+    "changelogDate": "20190725174943",
+    "dto": "yes",
+    "searchEngine": "",
+    "service": "serviceClass",
+    "entityTableName": "car",
+    "databaseType": "sql",
+    "jpaMetamodelFiltering": false,
+    "pagination": "infinite-scroll"
+}
